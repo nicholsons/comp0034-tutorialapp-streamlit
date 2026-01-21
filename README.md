@@ -4,6 +4,15 @@ This is a completed version based on the activity weekly instructions.
 
 The repository will be updated each week after the tutorials.
 
-[app2.py](src/paralympics/app2.py): as at the end of the week 2 activities
+There is a branch for each week, then the master contains the latest status of all weeks to date.
 
-To run an app e.g. `streamlit run src/app2.py    `
+Please use the relevant branch to see the code as at the end of each set of activities:
+
+- [Week2](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week2)
+- Week3
+- Week4
+- Week5
+- Week6
+- Week7
+- Week8
+- Week9
