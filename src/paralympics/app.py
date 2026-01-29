@@ -12,7 +12,6 @@ st.set_page_config(page_title="Paralympics", layout="wide")
 
 
 # Callback
-
 def clear_other_state():
     """Clear irrelevant widget state whenever the chart choice changes."""
     for key in ["trend_feature", "bar_pills"]:
