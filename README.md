@@ -10,7 +10,7 @@ Please use the relevant branch to see the code as at the end of each set of acti
 
 - [Week2](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week2)
 - [Week3](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week3)
-- Week4
+- [Week4](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week4)
 - Week5
 - Week6
 - Week7
