@@ -9,7 +9,8 @@ dependencies = [
     "fastapi",
     "uvicorn",
     "requests",
-    "pytest-playwright"
+    "pytest-playwright",
+    "pylint"
 ]
 requires-python = ">= 3.12"
 
@@ -20,8 +21,22 @@ build-backend = "setuptools.build_meta"
 # Pytest configuration see https://docs.pytest.org/en/stable/reference/customize.html
 # and https://docs.pytest.org/en/stable/reference/reference.html#ini-options-ref
 [tool.pytest.ini_options]
-minversion = "6.0"
 addopts = "-rA -v"
 testpaths = ["tests"]
 pythonpath = ["src"]
 filterwarnings = ["ignore::DeprecationWarning"]
+
+# Pylint configuration
+[tool.pylint]
+max-line-length = 100 # Default is 79 (PEP8 standard length)
+good-names = ["i", "j", "df", "x", "y"]  # Prevents variable name warnings for these common names that don't meet PEP8
+
+# Ruff configuration
+[tool.ruff]
+line-length = 100 # Default is 88
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.mccabe]
+max-complexity = 1
