@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-from paralympics.paralympics_dashboard import API_BASE, count_questions, get_question, get_responses
+from paralympics.paralympics_dashboard import API_BASE
 
 st.set_page_config(page_title="Teacher Admin", layout="wide")
 

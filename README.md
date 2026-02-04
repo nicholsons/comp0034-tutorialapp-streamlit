@@ -8,10 +8,10 @@ There is a branch for each week, then the master contains the latest status of a
 
 Please use the relevant branch to see the code as at the end of each set of activities:
 
-- [Week2](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week2)
-- [Week3](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week3)
-- [Week4](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week4)
-- Week5
+- [Week2](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week2) Layout
+- [Week3](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week3) Charts
+- [Week4](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week4) Forms
+- [Week5](https://github.com/nicholsons/comp0034-tutorialapp-streamlit/tree/week5) Testing
 - Week6
 - Week7
 - Week8
