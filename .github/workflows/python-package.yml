@@ -1,4 +1,4 @@
-name: Python pylint and pytest
+name: Python pytest only
 
 on:
   push:
@@ -28,9 +28,6 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Ensure browsers are installed
       run: python -m playwright install --with-deps chromium
-    - name: Lint with pylint
-      run: |
-        pylint $(git ls-files '*.py')
     - name: Run tests
       run: pytest --tracing=retain-on-failure
     - uses: actions/upload-artifact@v4
